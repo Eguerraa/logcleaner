@@ -2,7 +2,7 @@ LogCleaner Utility
 
 Overview
 --------
-LogCleaner is a tool that cleans a log file by removing lines containing specific phrases, as specified in the `config.ini` file. The tool reads this configuration file, scans the log file, and filters out any matching lines, saving the cleaned log in a new file.
+LogCleaner is a tool that cleans a log file by removing lines containing specific phrases, as specified in the `config.ini` file. The tool reads this configuration file, scans the log file, and filters out any matching lines, saving the cleaned log in a new file in the same location as the original log file appending "_cleaned" to the cleaned file.
 
 
 Files
